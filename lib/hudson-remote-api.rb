@@ -1,5 +1,5 @@
 require 'uri'
 require 'net/http'
-require './lib/hudson-remote-api/client.rb'
+require 'hudson-remote-api/client'
 
 Dir[File.dirname(__FILE__) + '/hudson-remote-api/**/*.rb'].each {|file| require file }
